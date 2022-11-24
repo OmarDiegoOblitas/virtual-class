@@ -1,0 +1,41 @@
+.first_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 6rem;
+}
+.image {
+    border-radius: 1rem;
+    width: 400px;
+    height: 320px;
+}
+.description{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.title_product{
+    color: rgb(33,81,77);
+}
+.info_product{
+    color: rgb(33,81,77);
+    width: 550px ;
+}
+.button{
+    background: rgb(23,168,178);
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.second_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

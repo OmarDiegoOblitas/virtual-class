@@ -1,0 +1,4 @@
+.section_teachers{
+    display: flex;
+    justify-content: space-between;
+}

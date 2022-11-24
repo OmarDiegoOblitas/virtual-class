@@ -1,0 +1,41 @@
+.content{
+    color: rgb(33,81,77);
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    align-items: center;
+}
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+.footer_title{
+    color: lightgray;
+    font-weight: 300;
+}
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(23,168,178);
+}
+.footer_end{
+
+    background: darkslategrey;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.footer_end > p {
+    color: white;
+    background-color: transparent;
+
+}
