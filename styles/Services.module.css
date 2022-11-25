@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    color: black;
+}
+.first_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: .5rem;
+}
+.first_line div{
+    width: 360px;
+    height: 380px;
+    background-color: rgb(23,168,178);
+    border-radius: 1rem;
+}
+.image_special{
+    width: 140px;
+    height: 150px;
+    margin: 1rem;
+    background: transparent;
+ }
+.second_line{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    gap: .5rem;
+}
+.second_line div{
+    width: 360px;
+    height: 380px;
+    background-color: rgb(23,168,178);
+    border-radius: 1rem;
+}
+.first_line p , .second_line p{
+    background-color: transparent;
+    color: white;
+    margin: 1rem;
+}
+.first_line button , .second_line button{
+    background-color: white;
+    color: rgb(23,168,178);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid white 1px;
+    cursor: pointer;
+}
+.image {
+    width: 120px;
+    height: 110px;
+    margin: 2rem;
+    background: transparent;
+}

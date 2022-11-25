@@ -1,12 +1,16 @@
 import React from 'react';
 import styles from'../../styles/Header.module.css'
+import logo_icon from "../assets/small-robot-metal-ai-by-Vexels.svg"
+import Image from "next/image";
 
 function Header(props) {
     return (
         <div>
            <div className={styles.header}>
-              <div>
+              <div className={styles.header_logo}>
+                  <Image src={logo_icon} classname={styles.icon} width={50} height={50}/>
                   <h1 className={styles.title}>NOTIC</h1>
+
               </div>
                <div className={styles.button}>
                    <button type="submit">Sign Up</button>

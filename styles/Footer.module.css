@@ -2,7 +2,8 @@
     color: rgb(33,81,77);
     display: flex;
     justify-content: space-around;
-
+    gap: 2rem;
+    margin: 4rem 0;
 }
 .logo{
     display: flex;
@@ -13,8 +14,10 @@
 .footer_info{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-
+    width: 50%;
+}
+.second_section{
+    width: 50%;
 }
 .footer_title{
     color: lightgray;
@@ -26,16 +29,18 @@
     color: rgb(23,168,178);
 }
 .footer_end{
-
-    background: darkslategrey;
     height: 80px;
+    text-align: center;
+}
+.footer_end  p {
+    color: rgb(23,168,178);
+}
+.icon_logo {
+    width: 50px;
+    height: 50px;
+}
+.footer_links_icons{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.footer_end > p {
-    color: white;
-    background-color: transparent;
-
+    gap: 1rem;
 }

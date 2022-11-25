@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from "../src/components/Header";
 import Footer from "../src/components/Footer";
 import Teachers from "../src/components/Teachers";
-import About from "../src/components/About";
 import Products from "../src/components/Products";
+import Services from "../src/components/Services";
 
 export default function Home() {
   return (
@@ -18,7 +17,7 @@ export default function Home() {
         <Header/>
         <Products/>
         <Teachers/>
-        <About/>
+        <Services/>
         <Footer/>
     </div>
   )

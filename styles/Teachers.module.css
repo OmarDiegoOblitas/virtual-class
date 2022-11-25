@@ -1,4 +1,22 @@
 .section_teachers{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 2rem 1rem;
+}
+.profile{
+    width: 180px;
+    height: 180px;
+    border-image: unset;
+    border-radius: 1rem;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.link{
+    display: flex;
+    gap: 1rem;
 }

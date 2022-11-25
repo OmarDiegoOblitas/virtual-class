@@ -5,6 +5,14 @@
     justify-content: space-around;
     margin-top: 2rem;
 }
+.header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
 .title{
     color: lightgray;
     font-weight: 200;
@@ -31,6 +39,7 @@ margin: 2rem;
     gap: 3rem;
     justify-content: center;
     font-weight: 700;
+
 }
 .links_title li{
     text-decoration: none;
@@ -41,4 +50,7 @@ margin: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: solid rgb(33,81,77) 1px;
+    border-radius: 1rem;
+    padding: 1rem;
 }
