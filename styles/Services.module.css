@@ -8,14 +8,18 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    text-align: center;
     gap: .5rem;
+    text-align: center;
 }
 .first_line div{
     width: 360px;
     height: 380px;
     background-color: rgb(23,168,178);
     border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .image_special{
     width: 140px;
@@ -35,11 +39,19 @@
     height: 380px;
     background-color: rgb(23,168,178);
     border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .first_line p , .second_line p{
     background-color: transparent;
     color: white;
     margin: 1rem;
+}
+.first_line span,.second_line span{
+    background:transparent;
+    color: black;
 }
 .first_line button , .second_line button{
     background-color: white;
@@ -54,4 +66,18 @@
     height: 110px;
     margin: 2rem;
     background: transparent;
+}
+
+@media screen and (max-width: 720px) {
+    .container{
+        gap: 1rem;
+    }
+    .first_line {
+        display: flex;
+        flex-direction: column;
+    }
+    .second_line {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -13,10 +13,7 @@ function Products(props) {
                <div className={styles.description}>
                    <h1 className={styles.title_product}>Explore a new world</h1>
                    <p className={styles.info_product}>
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                       Aliquam consequatur consequuntur cupiditate distinctio doloremque,
-                       dolorum earum est incidunt inventore minima necessitatibus neque odit pariatur qui,
-                       quidem quis soluta tempore veniam!
+                       Bienvenido al mejor curso de programación en ARDUINO para iniciantes. Aquí encontrarás todas las lecciones del curso con las explicaciones detalladas, todos los códigos para que los descargues y los enlaces directos a los videos
                    </p>
                    <button className={styles.button}>View More</button>
                </div>
@@ -25,9 +22,7 @@ function Products(props) {
           <div className={styles.second_content}>
               <div className={styles.description}>
                   <h1 className={styles.title_product}>The future is clooser</h1>
-                  <p className={styles.info_product}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Accusantium ad autem consectetur culpa cupiditate dicta dolorum eos,
-                      ipsum iste minus modi natus omnis placeat quia sed sequi, tenetur totam ullam!</p>
+                  <p className={styles.info_product}>En este curso de Arduino aprenderás los fundamentos y las aplicaciones con referente a electrónica, robótica y programación de este programa, además de sus características y funciones generales Todo esto, con el fin de llevar a cabo el desarrollo de proyectos. </p>
                   <button className={styles.button}>learn more</button>
               </div>
               <div>

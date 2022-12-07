@@ -8,9 +8,8 @@ function Header(props) {
         <div>
            <div className={styles.header}>
               <div className={styles.header_logo}>
-                  <Image src={logo_icon} classname={styles.icon} width={50} height={50}/>
+                  <Image src={logo_icon} width={50} height={50} alt="icon_logo"/>
                   <h1 className={styles.title}>NOTIC</h1>
-
               </div>
                <div className={styles.button}>
                    <button type="submit">Sign Up</button>

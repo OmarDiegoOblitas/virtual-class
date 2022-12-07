@@ -10,31 +10,31 @@ function Footer(props) {
            <div className={styles.content}>
                <div className={styles.footer_info}>
                    <h2>Contact</h2>
-                   <p>
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum doloribus, eaque eligendi magni ratione reiciendis repellat suscipit temporibus vero? Ab alias culpa cum dicta doloribus nesciunt nisi optio provident quisquam?
-                   </p>
-                   <span>datos: </span>
-                   <p>www.classonline.com</p>
-                   <span>phone</span>
+                   <span>Ubicacion: <strong>Av.Camacho#523</strong></span>
+                   <span>Celular: <strong>+59173292019</strong> </span>
+                   <span>WWW.classOnline.com.bo</span>
                </div>
+
                <div className={styles.second_section}>
                    <h2>ABOUT US</h2>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dignissimos dolorem, facere laboriosam magnam neque nihil perferendis quas, qui ratione reprehenderit sint temporibus unde! Blanditiis doloribus et facere sapiente vel.</p>
+                   <p>Este curso de arduino ha sido estructurado pedagógicamente mediante recursos educativos compartidos directamente, bajo Licencia Estándar. Así como recursos creados por Academy Notic, compartidos bajo Licencia Creative Commons.
+
+                       Si necesita obtener más información sobre derechos de autor, por favor envíe una solicitud de contacto.</p>
                </div>
            </div>
             <div className={styles.footer_links}>
                     <div className={styles.footer_links_icons}>
-                        <Image src={logo} className={styles.icon_logo}></Image>
+                        <Image src={logo} className={styles.icon_logo} alt="icon_logo"></Image>
                         <h1 className={styles.footer_title}>Notic</h1>
                     </div>
                     <div className={styles.logo}>
-                        <span>{AiFillYoutube()}</span>
-                        <span>{AiFillFacebook()}</span>
-                        <span>{AiFillTwitterCircle()}</span>
-                        <span>{AiFillBehanceCircle()}</span>
-                        <span>{AiFillLinkedin()}</span>
-                        <span>{AiFillInstagram()}</span>
-                        <span>{AiOutlineWhatsApp()}</span>
+                        <span className={styles.footer_icon}>{AiFillYoutube()}</span>
+                        <span className={styles.footer_icon}>{AiFillFacebook()}</span>
+                        <span className={styles.footer_icon}>{AiFillTwitterCircle()}</span>
+                        <span className={styles.footer_icon}>{AiFillBehanceCircle()}</span>
+                        <span className={styles.footer_icon}>{AiFillLinkedin()}</span>
+                        <span className={styles.footer_icon}>{AiFillInstagram()}</span>
+                        <span className={styles.footer_icon}>{AiOutlineWhatsApp()}</span>
                     </div>
             </div>
             <div className={styles.footer_end}>

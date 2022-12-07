@@ -54,3 +54,13 @@ margin: 2rem;
     border-radius: 1rem;
     padding: 1rem;
 }
+
+@media screen and (max-width: 720px) {
+    .links_title{
+        display: none;
+    }
+    .button{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

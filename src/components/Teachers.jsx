@@ -10,32 +10,33 @@ import profile3 from "../assets/profile-photo-2379004.jpeg"
 function Teachers(props) {
     return (
         <div>
+               <div> <h1 className={styles.title_teacher}>Teachers</h1></div>
             <div className={styles.section_teachers}>
                 <div className={styles.cart}>
-                    <Image src={profile1} className={styles.profile}></Image>
-                    <span>Diego Choque</span>
+                    <Image src={profile1} className={styles.profile} alt="profile_Person"></Image>
+                    <span className={styles.profile_name}>Diego Choque</span>
                    <div className={styles.link}>
-                       <span>{AiFillTwitterCircle()}</span>
-                       <span>{AiFillFacebook()}</span>
-                       <span>{AiFillLinkedin()}</span>
+                       <span className={styles.style_icon}>{AiFillTwitterCircle()}</span>
+                       <span className={styles.style_icon}>{AiFillFacebook()}</span>
+                       <span className={styles.style_icon}>{AiFillLinkedin()}</span>
                    </div>
                 </div>
                 <div className={styles.cart}>
-                    <Image src={profile2} className={styles.profile} ></Image>
-                    <span>Juan Carlos Soliz</span>
+                    <Image src={profile2} className={styles.profile} alt="profile_Person1"></Image>
+                    <span className={styles.profile_name}>Juan Carlos Soliz</span>
                    <div className={styles.link}>
-                       <span>{AiFillTwitterCircle()}</span>
-                       <span>{AiFillFacebook()}</span>
-                       <span>{AiFillLinkedin()}</span>
+                       <span className={styles.style_icon}>{AiFillTwitterCircle()}</span>
+                       <span className={styles.style_icon}>{AiFillFacebook()}</span>
+                       <span className={styles.style_icon}>{AiFillLinkedin()}</span>
                    </div>
                 </div>
                 <div className={styles.cart}>
-                    <Image src={profile3} className={styles.profile}></Image>
-                    <span>Roberto Mendoza</span>
+                    <Image src={profile3} className={styles.profile} alt="profile_Person2"></Image>
+                    <span className={styles.profile_name}>Roberto Mendoza</span>
                    <div className={styles.link}>
-                       <span>{AiFillTwitterCircle()}</span>
-                       <span>{AiFillFacebook()}</span>
-                       <span>{AiFillLinkedin()}</span>
+                       <span className={styles.style_icon}>{AiFillTwitterCircle()}</span>
+                       <span className={styles.style_icon}>{AiFillFacebook()}</span>
+                       <span className={styles.style_icon}>{AiFillLinkedin()}</span>
                    </div>
                 </div>
             </div>
